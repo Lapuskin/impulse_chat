@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "impulsechat"
+version = "0.1.0"
+description = "Chat for ImpulseTeam's employers, thats not got a salary"
+authors = ["Lapuskin <mikhail.lapkovskiy.2004@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+channels = "^4.1.0"
+uvicorn = "^0.30.6"
+redis = "^5.0.8"
+django = "^5.1"
+websockets = "^13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
